@@ -17,3 +17,14 @@
 - npm install phosphor-react
 - [headless](https://headlessui.dev/): Componentes de interface do usuário totalmente sem estilo e totalmente acessíveis, projetados para se integrar perfeitamente ao Tailwind CSS.
 - npm install @headlessui/react
+
+# Stage 2 – Aceleração máxima
+
+- Nessa aula nós vamos finalizar o desenvolvimento do front-end web da nossa aplicação utilizando ReactJS. Você vai aprender sobre conceitos de passagem de funções como propriedades e criar o fluxo de navegação para envio de feedbacks.
+
+- [tailwindcss-forms](https://github.com/tailwindlabs/tailwindcss-forms)
+- npm install -D @tailwindcss/forms
+- [Scrollbar Plugin for Tailwind CSS](https://www.npmjs.com/package/tailwind-scrollbar)
+- npm install -D tailwind-scrollbar
+- [html2canvas](https://html2canvas.hertzen.com/)
+- npm install html2canvas
