@@ -47,14 +47,12 @@
 - [mailtrap](https://mailtrap.io/): Email Sandbox Service
 
 # GitHub - Testes
-- git init
 - git add .
 - git commit -m "stage 3 - SOLID"
 - git branch -M stage3-SOLID
-- git remote add origin git@github.com:mazera3/nlw-return-mission-impulse.git
 - git push -u origin stage3-SOLID
 
-# Testes
+# Testes - SOLID
 
 - SOLID: Os 5 Princípios para as Boas Práticas da POO
   - 1. S — Single Responsiblity Principle - SRP (Princípio da responsabilidade única)
