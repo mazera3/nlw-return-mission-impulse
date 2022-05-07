@@ -45,3 +45,25 @@
 - npm i nodemailer
 - npm i @types/nodemailer -D
 - [mailtrap](https://mailtrap.io/): Email Sandbox Service
+
+# GitHub - Testes
+- git init
+- git add .
+- git commit -m "stage 3 - SOLID"
+- git branch -M stage3-SOLID
+- git remote add origin git@github.com:mazera3/nlw-return-mission-impulse.git
+- git push -u origin stage3-SOLID
+
+# Testes
+
+- SOLID: Os 5 Princípios para as Boas Práticas da POO
+  - 1. S — Single Responsiblity Principle - SRP (Princípio da responsabilidade única)
+        * Cada classe tem uma responsabilidade única: uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software, ou seja, a classe deve ter uma única tarefa ou ação para executar.
+  - 2. O — Open-Closed Principle - OCP (Princípio Aberto-Fechado)
+        * As classes da aplicação, objetos ou entidades, dever ser abertas para extensão nais fechadas para modificação: quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
+  - 3. L — Liskov Substitution Principle - LSP (Princípio da substituição de Liskov)
+        * Uma classe derivada (herança) deve ser substituível por sua classe base (pai).
+  - 4. I — Interface Segregation Principle - ISP (Princípio da Segregação da Interface)
+        * Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar: é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
+  - 5. D — Dependency Inversion Principle - DIP (Princípio da inversão da dependência)
+        * Dependa de abstrações e não de implementações: Módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender da abstração; abstrações não devem depender de detalhes, detalhes devem depender de abstrações.
