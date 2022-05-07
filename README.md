@@ -46,12 +46,6 @@
 - npm i @types/nodemailer -D
 - [mailtrap](https://mailtrap.io/): Email Sandbox Service
 
-# GitHub - Testes
-- git add .
-- git commit -m "stage 3 - SOLID"
-- git branch -M stage3-SOLID
-- git push -u origin stage3-SOLID
-
 # Testes - SOLID
 
 - SOLID: Os 5 Princípios para as Boas Práticas da POO
@@ -65,3 +59,22 @@
         * Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar: é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
   - 5. D — Dependency Inversion Principle - DIP (Princípio da inversão da dependência)
         * Dependa de abstrações e não de implementações: Módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender da abstração; abstrações não devem depender de detalhes, detalhes devem depender de abstrações.
+
+# Testes - Jest
+
+- npm install jest -D
+- npx jest --init
+- npm install ts-node -D
+- npm i -D jest @swc/core @swc/jest @types/jest
+- npm i -D @swc/jest
+  * O SWC é uma plataforma extensível baseada em Rust para a próxima geração de ferramentas de desenvolvimento rápidas. Ele é usado por ferramentas como Next.js, Parcel e Deno, além de empresas como Vercel, ByteDance, Tencent, Shopify e muito mais. O SWC pode ser usado tanto para compilação quanto para agrupamento. Para compilação, ele usa arquivos JavaScript/TypeScript usando recursos modernos de JavaScript e gera um código válido que é suportado por todos os principais navegadores.
+  - [jest](https://swc.rs/docs/usage/jest)
+  - [cors](https://www.npmjs.com/package/cors) CORS é um pacote node.js para fornecer um middleware Connect/Express que pode ser usado para habilitar CORS com várias opções. Permite autorizar qual front-end pode consumir o back-end.
+  - npm i cors
+  - npm i @types/cors -D
+
+# GitHub - Testes
+- git add .
+- git commit -m "stage 3 - Testes"
+- git branch -M stage3-Testes
+- git push -u origin stage3-Testes
